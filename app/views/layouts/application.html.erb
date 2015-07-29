@@ -14,9 +14,14 @@
     <header>
       <%= render 'layouts/navigation' %>
     </header>
-    <main role="main">
+    <main role="main" class="row full-min-height">
        <%= render 'layouts/messages' %>
        <%= yield %>
     </main>
+    <footer class="row">
+      <div class="large-12 columns">
+        <hr> <p>© Passover By Brenda 2015</p>
+      </div>
+    </footer>
   </body>
 </html>
