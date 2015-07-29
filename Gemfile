@@ -55,6 +55,9 @@ group :development, :test do
 
   # Because it's prettier than irb
   gem 'pry-rails'
+
+  gem "better_errors"
+
 end
 
 group :production do
